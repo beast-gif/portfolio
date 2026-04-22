@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0b0f17"/>
+
+  <!-- Grid pattern -->
+  <defs>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="80%" cy="30%">
+      <stop offset="0%" stop-color="#5eead4" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#5eead4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Orbit ring -->
+  <circle cx="980" cy="320" r="160" fill="none" stroke="#5eead4" stroke-opacity="0.3" stroke-width="1" stroke-dasharray="4 6"/>
+  <circle cx="980" cy="320" r="220" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <circle cx="1140" cy="320" r="8" fill="#5eead4"/>
+  <circle cx="980" cy="100" r="5" fill="#5eead4" opacity="0.6"/>
+
+  <!-- Status pill -->
+  <rect x="80" y="130" width="280" height="38" rx="19" fill="#0f1521" stroke="rgba(94,234,212,0.3)"/>
+  <circle cx="104" cy="149" r="4" fill="#5eead4"/>
+  <text x="120" y="155" font-family="JetBrains Mono, monospace" font-size="13" fill="#5eead4">Available for internships · 2026</text>
+
+  <!-- Name -->
+  <text x="80" y="300" font-family="Inter, sans-serif" font-size="92" font-weight="600" fill="#e6edf5" letter-spacing="-3">Sai Amrith</text>
+  <text x="80" y="400" font-family="Instrument Serif, serif" font-style="italic" font-size="96" fill="#5eead4">Reddy.</text>
+
+  <!-- Role -->
+  <text x="80" y="470" font-family="JetBrains Mono, monospace" font-size="18" fill="#8b96a8">Engineer · AI/ML · Full-stack · Embedded</text>
+
+  <!-- Footer -->
+  <text x="80" y="560" font-family="JetBrains Mono, monospace" font-size="14" fill="#4a5468">amrith.dev</text>
+  <text x="1120" y="560" font-family="JetBrains Mono, monospace" font-size="14" fill="#4a5468" text-anchor="end">Bangalore, IN</text>
+</svg>
