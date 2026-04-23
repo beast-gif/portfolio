@@ -86,7 +86,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 1.5 }}
         >
-          ECE student at Amrita Vishwa Vidyapeetham. I build ML pipelines,
+          EAC student at Amrita Vishwa Vidyapeetham. I build ML pipelines,
           embedded systems, and full-stack apps — focused on shipping things
           that actually work.
         </motion.p>

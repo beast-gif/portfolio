@@ -957,3 +957,60 @@ section { padding: 100px 0; }
   border-color: var(--accent);
   box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 20%, transparent);
 }
+/* ====== WEBRING ====== */
+.footer-inner {
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  text-align: center;
+}
+@media (min-width: 900px) {
+  .footer-inner {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+}
+
+.footer-left, .footer-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer-sep { color: var(--ink-faint); }
+
+.webring {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 8px 16px;
+  border: 1px dashed var(--border-strong);
+  border-radius: 100px;
+  background: var(--bg-card);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  color: var(--ink-dim);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.webring-label {
+  color: var(--accent);
+  font-weight: 500;
+  padding-right: 10px;
+  border-right: 1px solid var(--border-strong);
+  letter-spacing: 0.3px;
+}
+
+.webring a {
+  color: var(--ink-dim);
+  text-decoration: none;
+  transition: color 0.2s;
+  letter-spacing: 0.5px;
+}
+.webring a:hover {
+  color: var(--accent);
+}
