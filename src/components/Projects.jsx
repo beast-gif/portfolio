@@ -27,6 +27,11 @@ const projects = [
     desc: 'Secure APIs supporting real-time streaming with authentication. Handles multiple concurrent video streams with optimized backend performance.',
     stack: ['Flask', 'REST', 'Auth'],
   },
+  {
+    title: 'Content Creation Campaigner',
+    desc: 'Designed an AI-powered tool generating platform-specific social media posts and slides from seed ideas and vibes. Built automated LLM prompt pipelines and templating workflows to produce polished multi-channel assets',
+    stack: ['Python', 'Flask', 'LLMs', 'React', 'Presentation APIs'],
+  },
 ]
 
 export default function Projects() {

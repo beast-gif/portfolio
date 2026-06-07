@@ -13,7 +13,7 @@ export default function Education() {
           <div className="edu-body">
             <h3>Amrita Vishwa Vidyapeetham, Bengaluru</h3>
             <p>B.Tech, Electronics and Computer Engineering</p>
-            <span className="edu-meta">CGPA 7.02 / 10</span>
+            <span className="edu-meta">CGPA 7.15 / 10</span>
           </div>
         </motion.div>
         <motion.div className="edu-item" initial={{ opacity: 0, y: 16 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1 }}>
