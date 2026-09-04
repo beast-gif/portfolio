@@ -77,7 +77,7 @@ export default function Hero() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 1.3 }}
         >
-          Engineer · <strong>AI/ML</strong> · <strong>Full-stack</strong> · <strong>Embedded</strong>
+          Engineer · <strong>AI/ML</strong> · <strong>Full-stack</strong> · <strong>RAG</strong>
         </motion.p>
 
         <motion.p
@@ -86,7 +86,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 1.5 }}
         >
-          EAC student at Amrita Vishwa Vidyapeetham. I build ML pipelines,
+          EAC student at Amrita Vishwa Vidyapeetham. I build ML pipelines,RAG systems,
           embedded systems, and full-stack apps — focused on shipping things
           that actually work.
         </motion.p>
@@ -121,7 +121,7 @@ export default function Hero() {
           <span className="currently-dot"></span>
           <span className="currently-label">Currently</span>
           <span className="currently-text">
-            Exploring transformer architectures & building an AI video pipeline
+            Exploring transformer architectures & building an RAG pipeline
           </span>
         </motion.div>
 

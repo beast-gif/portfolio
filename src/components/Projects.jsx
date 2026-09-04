@@ -2,15 +2,21 @@ import { motion } from 'framer-motion'
 import { ArrowUpRight } from 'lucide-react'
 
 const projects = [
-  {
-    title: 'AI Educational Video Generator',
-    desc: 'Automated video generation pipeline reducing manual effort by ~80%. Generates structured 2-minute videos with optimized animation flow using LLM + Manim.',
-    stack: ['LLM', 'Manim', 'Python'],
+   {
+    title: 'Triage-Confidence and cost aware RAG chatbot',
+    desc: 'Built an adaptive RAG pipeline over a scraped institutional corpus: Crawl4AI ingestion with deduplication, BGE sentence embeddings, ChromaDB vector store, and a bge-reranker-base cross-encoder reranking layer.Designed a five-model LLM ensemble router that selects generation strategy per query from retrieval confidence and inference cost, cutting spend on easy queries while escalating ambiguous ones.',
+    stack: ['Python', 'RAG', 'Rest APIs', 'LLMs', 'ChromaDB', 'BGE'],
   },
+  
   {
     title: 'Deep Learning Music Generator',
     desc: 'Transformer-based model generating MIDI music sequences. Sequence modeling yields coherent multi-instrument outputs with improved musical structure.',
     stack: ['PyTorch', 'Transformers', 'MIDI'],
+  },
+    {
+    title: 'Content Creation Campaigner',
+    desc: 'Designed an AI-powered tool generating platform-specific social media posts and slides from seed ideas and vibes. Built automated LLM prompt pipelines and templating workflows to produce polished multi-channel assets',
+    stack: ['Python', 'Flask', 'LLMs', 'React', 'Presentation APIs'],
   },
   {
     title: 'Student Mental Health Analysis',
@@ -28,10 +34,12 @@ const projects = [
     stack: ['Flask', 'REST', 'Auth'],
   },
   {
-    title: 'Content Creation Campaigner',
-    desc: 'Designed an AI-powered tool generating platform-specific social media posts and slides from seed ideas and vibes. Built automated LLM prompt pipelines and templating workflows to produce polished multi-channel assets',
-    stack: ['Python', 'Flask', 'LLMs', 'React', 'Presentation APIs'],
+    title: 'AI Educational Video Generator',
+    desc: 'Automated video generation pipeline reducing manual effort by ~80%. Generates structured 2-minute videos with optimized animation flow using LLM + Manim.',
+    stack: ['LLM', 'Manim', 'Python'],
   },
+
+ 
 ]
 
 export default function Projects() {
